@@ -1,44 +1,4 @@
-# kitty
 
-### 在线演示
-
-演示地址：http://139.196.87.48:9002/kitty
-
-用户名：admin 密码：admin
-
-温馨提示：
-有在演示环境删除数据的童鞋们，如果可以的话，麻烦动动小指，点击头像面板，
-选择 -> 备份还原 帮忙恢复到系统默认备份数据，方便后来的童鞋查看，谢谢啦。
-
-### 技术交流
-
-为了方便大家提问和技术交流，整了个QQ群，欢迎童鞋们加入。
-
-QQ技术交流群： 528818161
-
-### 博客教程
-
-本人技术博客提供同步系列文章教程, 讲解了Kitty从零开始搭建的全过程：
-
-[Vue.js + Element UI 实现权限管理系统 前端篇](https://www.cnblogs.com/xifengxiaoma/p/9533018.html)
-
-[Spring Boot + Spring Cloud 实现权限管理系统 后端篇](https://www.cnblogs.com/xifengxiaoma/p/9474953.html)
-
-### 分支说明
-
-- master: 主推版本分支，支持分布式，服务治理（Spring Security + Spring Cloud）
-
-- dev: 开发分支，适时合并到master分支，支持分布式，服务治理（Spring Security + Spring Cloud）
-
-- shiro-cloud: 基于Spring Boot + Shiro + Spring Cloud，支持分布式、服务治理
-
-- shiro: 基于Spring Boot + Shiro，不包含 Spring Cloud，部署环境稍微简单一点
-
-- idea: IDEA项目结构代码，使用IDEA作为开发IDE的朋友可以使用此分支快速导入IDEA
-
-### 项目介绍
-
-- Kitty是基于Spring Boot、Spring Cloud、Vue、Element实现的Java快速开发平台。
 
 - 目标是搭建出一套简洁易用的快速解决方案，可以帮助用户有效降低项目开发难度和成本。
 
@@ -69,11 +29,7 @@ QQ技术交流群： 528818161
 - ✘ 系统登录：集成第三方登录功能（QQ、微信、微博）
 - ...
 
-### 代码生成器
 
-代码生成器放在独立项目，地址如下：
-
-[https://gitee.com/liuge1988/kitty-generator](https://gitee.com/liuge1988/kitty-generator)
 
 
 ### 软件架构
@@ -152,7 +108,7 @@ kitty-ui
 
 1. 下载源码
 
-    git clone https://gitee.com/liuge1988/kitty.git
+    git clone https://github.com/wsj1198878990/alipay-project
 
 2. 导入工程
 
@@ -166,11 +122,7 @@ kitty-ui
 
 4. 导入数据库
 
-    新建 kitty 数据库，导入 kitty-admin 工程 doc/kitty.sql 脚本，导入初始化数据库。
-
-    修改 kitty-admin 下 application.yml 中的数据库连接和账号密码为自己的数据库配置。
-
-    修改 kitty-backup 下 application.yml 中的数据库连接和账号密码为自己的数据库配置。
+   
 
 5. 启动系统
 
@@ -200,7 +152,7 @@ kitty-ui
 
 1. 下载源码
 
-    git clone https://gitee.com/liuge1988/kitty-ui.git
+    git clone https://github.com/wsj1198878990/alipay-project-ui
 
 2. 编译代码
 
@@ -294,12 +246,3 @@ kitty-ui
 3. 提交代码
 4. 新建 Pull Request
 
-
-### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [http://git.mydoc.io/](http://git.mydoc.io/)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
